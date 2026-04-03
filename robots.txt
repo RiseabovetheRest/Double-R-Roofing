@@ -1,0 +1,9 @@
+# Double R Roofing - https://riseabovethe.rest
+# Princeton, WV Roofing Contractor
+
+User-agent: *
+Allow: /
+Disallow: /industrys-best-warranty-fixed.html
+
+# Sitemap
+Sitemap: https://riseabovethe.rest/sitemap.xml

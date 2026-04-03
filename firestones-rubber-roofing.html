@@ -1,0 +1,2502 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Expert Firestone Rubber Roofing Excellence by Double R Roofing in Princeton, WV. Delivering high-quality craftsmanship and reliable roofing solutions for your local property." name="description"/>
+<title>Firestone Rubber Roofing | Double R Roofing</title>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-dark: #0a0a0a;
+            --bg-card: #141414;
+            --bg-card-hover: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #a3a3a3;
+            --text-muted: #737373;
+            --firestone-red: #c41230;
+            --firestone-red-light: #e01e3c;
+            --firestone-red-dark: #9a0e26;
+            --firestone-gray: #4a4a4a;
+            --accent-blue: #2563eb;
+            --success-green: #22c55e;
+            --border-color: #262626;
+            --gradient-firestone: linear-gradient(135deg, #c41230 0%, #e01e3c 50%, #9a0e26 100%);
+            --gradient-rubber: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            --shadow-glow: 0 0 40px rgba(196, 18, 48, 0.3);
+            --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-firestone);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .logo-text {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .logo-text span {
+            color: var(--firestone-red);
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--firestone-red);
+        }
+
+        .phone-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--firestone-red);
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        /* Partnership Badge */
+        .partnership-banner {
+            background: linear-gradient(90deg, var(--firestone-red-dark), var(--firestone-red), var(--firestone-red-dark));
+            padding: 12px 0;
+            text-align: center;
+            font-weight: 400;
+            font-size: 0.9rem;
+            margin-top: 80px;
+        }
+
+        .partnership-banner span {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 0;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(ellipse at 20% 30%, rgba(196, 18, 48, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 70%, rgba(30, 41, 59, 0.3) 0%, transparent 50%),
+                linear-gradient(180deg, var(--bg-dark) 0%, rgba(20, 20, 20, 1) 100%);
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .hero-badges {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(196, 18, 48, 0.15);
+            border: 1px solid rgba(196, 18, 48, 0.3);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            color: var(--firestone-red-light);
+        }
+
+        .hero-badge.certified {
+            background: rgba(34, 197, 94, 0.15);
+            border-color: rgba(34, 197, 94, 0.3);
+            color: var(--success-green);
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 400;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 .highlight {
+            background: var(--gradient-firestone);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            max-width: 540px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-firestone);
+            color: #fff;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 60px rgba(196, 18, 48, 0.4);
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent;
+            color: var(--text-primary);
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 400;
+            text-decoration: none;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--firestone-red);
+            background: rgba(196, 18, 48, 0.1);
+        }
+
+        .hero-visual {
+            position: relative;
+        }
+
+        .firestone-showcase {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .firestone-logo-container {
+            background: #fff;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .firestone-logo-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+            color: var(--firestone-red);
+            letter-spacing: -1px;
+        }
+
+        .firestone-logo-text span {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--firestone-gray);
+            letter-spacing: 2px;
+            margin-top: 4px;
+        }
+
+        .authorization-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-firestone);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 100px;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+
+        /* Stats */
+        .stats-section {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 48px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 16px;
+        }
+
+        .stat-value {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            background: var(--gradient-firestone);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        /* Products Section */
+        .products-section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .section-label {
+            display: inline-block;
+            background: rgba(196, 18, 48, 0.15);
+            border: 1px solid rgba(196, 18, 48, 0.3);
+            padding: 8px 20px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            color: var(--firestone-red-light);
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .product-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .product-card:hover {
+            border-color: var(--firestone-red);
+            transform: translateY(-4px);
+        }
+
+        .product-card.featured {
+            border-color: var(--firestone-red);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .product-image {
+            height: 180px;
+            background: var(--gradient-rubber);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .product-image .texture {
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 2px,
+                rgba(255,255,255,0.03) 2px,
+                rgba(255,255,255,0.03) 4px
+            );
+        }
+
+        .product-image .icon {
+            font-size: 4rem;
+            z-index: 1;
+        }
+
+        .featured-tag {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: var(--gradient-firestone);
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 400;
+        }
+
+        .product-content {
+            padding: 28px;
+        }
+
+        .product-name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .product-type {
+            color: var(--firestone-red);
+            font-weight: 400;
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+        }
+
+        .product-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .product-features {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .product-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+        }
+
+        .product-feature .check {
+            width: 20px;
+            height: 20px;
+            background: rgba(34, 197, 94, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--success-green);
+            font-size: 12px;
+        }
+
+        /* Why Firestone */
+        .why-firestone {
+            padding: 100px 0;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-card) 50%, var(--bg-dark) 100%);
+        }
+
+        .why-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .why-text h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .why-text h2 span {
+            color: var(--firestone-red);
+        }
+
+        .why-text > p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        .why-features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .why-feature {
+            display: flex;
+            gap: 16px;
+            padding: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            transition: all 0.3s;
+        }
+
+        .why-feature:hover {
+            border-color: var(--firestone-red);
+        }
+
+        .why-feature-icon {
+            width: 52px;
+            height: 52px;
+            background: rgba(196, 18, 48, 0.15);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .why-feature-text h4 {
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+
+        .why-feature-text p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .firestone-facts {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+        }
+
+        .firestone-facts h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 24px;
+            color: var(--firestone-red);
+        }
+
+        .fact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .fact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 16px;
+            background: var(--bg-dark);
+            border-radius: 12px;
+        }
+
+        .fact-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--gradient-firestone);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .fact-text {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .fact-text strong {
+            color: var(--text-primary);
+        }
+
+        /* Applications Section */
+        .applications {
+            padding: 100px 0;
+        }
+
+        .applications-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .application-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .application-card:hover {
+            border-color: var(--firestone-red);
+            transform: translateY(-4px);
+        }
+
+        .application-icon {
+            width: 72px;
+            height: 72px;
+            background: rgba(196, 18, 48, 0.15);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto 20px;
+        }
+
+        .application-card h3 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .application-card p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* Warranty Section */
+        .warranty-section {
+            padding: 100px 0;
+            background: var(--bg-card);
+        }
+
+        .warranty-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .warranty-info h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .warranty-info h2 span {
+            color: var(--success-green);
+        }
+
+        .warranty-info > p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        .warranty-tiers {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .warranty-tier {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+        }
+
+        .warranty-years {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-firestone);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .warranty-years .number {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .warranty-years .label {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.8);
+            text-transform: uppercase;
+        }
+
+        .warranty-tier-text h4 {
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+
+        .warranty-tier-text p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .warranty-visual {
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .warranty-badge-large {
+            width: 200px;
+            height: 200px;
+            background: var(--gradient-firestone);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .warranty-badge-large .years {
+            font-family: 'Poppins', sans-serif;
+            font-size: 4rem;
+            font-weight: 400;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .warranty-badge-large .text {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.9);
+            font-weight: 400;
+        }
+
+        .warranty-includes {
+            text-align: left;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .warranty-includes h4 {
+            font-weight: 400;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .warranty-includes ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .warranty-includes li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .warranty-includes li::before {
+            content: '✓';
+            width: 20px;
+            height: 20px;
+            background: rgba(34, 197, 94, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--success-green);
+            font-size: 12px;
+        }
+
+        /* Process Section */
+        .process-section {
+            padding: 100px 0;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            position: relative;
+        }
+
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 48px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--firestone-red), var(--success-green));
+            z-index: 0;
+        }
+
+        .process-step {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .step-number {
+            width: 96px;
+            height: 96px;
+            background: var(--bg-card);
+            border: 2px solid var(--firestone-red);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--firestone-red);
+        }
+
+        .process-step h3 {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .process-step p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: 
+                radial-gradient(ellipse at center, rgba(196, 18, 48, 0.2) 0%, transparent 60%);
+            z-index: 0;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-content h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+
+        .cta-content p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-trust {
+            margin-top: 48px;
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            background: rgba(196, 18, 48, 0.1);
+            border: 1px solid rgba(196, 18, 48, 0.3);
+            border-radius: 100px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 64px 0 32px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand p {
+            color: var(--text-secondary);
+            margin-top: 16px;
+            font-size: 0.9rem;
+        }
+
+        .footer-column h4 {
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: var(--firestone-red);
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-column a:hover {
+            color: var(--firestone-red);
+        }
+
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .certifications {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .cert-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(196, 18, 48, 0.1);
+            border: 1px solid rgba(196, 18, 48, 0.3);
+            border-radius: 8px;
+            color: var(--firestone-red-light);
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-badges {
+                justify-content: center;
+            }
+
+            .hero p {
+                margin: 0 auto 32px;
+            }
+
+            .hero-cta {
+                justify-content: center;
+            }
+
+            .hero-visual {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            .why-content,
+            .warranty-content {
+                grid-template-columns: 1fr;
+            }
+
+            .applications-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-steps {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .process-steps::before {
+                display: none;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            .stats-grid,
+            .applications-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-steps {
+                grid-template-columns: 1fr;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .certifications {
+                justify-content: center;
+            }
+        }
+    </style>
+<link rel="canonical" href="https://riseabovethe.rest/firestones-rubber-roofing.html"><meta content="firestone rubber roofing excellence, roofing Princeton WV, roofing contractor Mercer County, Double R Roofing, WV roofing company, firestone rubber roofing excellence services" name="keywords"/><meta content="Firestone Rubber Roofing Excellence | Double R Roofing | Princ..." property="og:title"/><meta content="Expert Firestone Rubber Roofing Excellence by Double R Roofing in Princeton, WV. Delivering high-quality craftsmanship and reliable roofing solutions for your local property." property="og:description"/><meta content="https://riseabovethe.rest/images/Double_R_Roofing_logo_with_transparent_background.PNG" property="og:image"/><meta content="https://riseabovethe.rest/firestone-rubber-roofing-excellence.html" property="og:url"/><meta content="website" property="og:type"/>
+<meta property="og:locale" content="en_US"/><meta content="Double R Roofing" property="og:site_name"/><meta content="summary_large_image" name="twitter:card"/><meta content="@double_r_roofin" name="twitter:site"/><meta content="Firestone Rubber Roofing Excellence | Double R Roofing | Princ..." name="twitter:title"/><meta content="Expert Firestone Rubber Roofing Excellence by Double R Roofing in Princeton, WV. Delivering high-quality craftsmanship and reliable roofing solutions for your local property." name="twitter:description"/><meta content="https://riseabovethe.rest/images/Double_R_Roofing_logo_with_transparent_background.PNG" name="twitter:image"/><link href="images/Double_R_Roofing_logo_with_transparent_background.PNG" rel="icon" type="image/png"/><link href="double-r-roofing.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Double R Roofing",
+  "image": "https://riseabovethe.rest/images/Double_R_Roofing_logo_with_transparent_background.PNG",
+  "@id": "https://riseabovethe.rest",
+  "url": "https://riseabovethe.rest/firestones-rubber-roofing.html",
+  "telephone": "(304) 716-5744",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "510 Oliver Ave",
+    "addressLocality": "Princeton",
+    "addressRegion": "WV",
+    "postalCode": "24740",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.3687,
+    "longitude": -81.0963
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "07:00",
+    "closes": "19:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/doublerroofing",
+    "https://www.instagram.com/doublerroofing"
+  ]
+}</script>
+<style>
+... your full CSS from earlier here ...
+</style>
+<style>
+:root {
+  --orange: #ff4500;
+  --black:  #000000;
+  --white:  #ffffff;
+  --glass:  rgba(0,0,0,0.87);
+  --rl:     'Rubik Lines', sans-serif;
+  --wt:     'Walter Turncoat', cursive;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--rl); font-weight: 400; background: #0e0e0e; min-height: 200vh; }
+
+/* ══ NAV ══ */
+#rr-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+  background: var(--glass);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border-bottom: 2px solid var(--orange);
+  box-shadow: 0 0 36px rgba(255,69,0,0.28), 0 4px 20px rgba(0,0,0,0.9);
+}
+#rr-nav::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, transparent, var(--orange), #ff8000, var(--orange), transparent);
+  background-size: 200% 100%;
+  animation: stripe 2.8s linear infinite;
+}
+@keyframes stripe { 0%{background-position:200% 0;} 100%{background-position:-200% 0;} }
+
+.rr-inner {
+  max-width: 1460px; margin: 0 auto;
+  display: flex; align-items: center; gap: 14px;
+  padding: 0 28px; height: 78px;
+}
+
+/* ── LOGO ── */
+.rr-logo { display:flex; align-items:center; gap:11px; text-decoration:none; flex-shrink:0; }
+.rr-logo img {
+  width:60px; height:60px; border-radius:50%;
+  border:2px solid var(--orange);
+  animation: logo-glow 3s ease-in-out infinite;
+}
+@keyframes logo-glow {
+  0%,100%{box-shadow:0 0 12px rgba(255,69,0,0.5);}
+  50%{box-shadow:0 0 28px rgba(255,69,0,1), 0 0 52px rgba(255,100,0,0.38);}
+}
+.rr-logo-text { display:flex; flex-direction:column; line-height:1.2; }
+.brand-main { font-family:var(--rl); font-size:20px; font-weight:400; color:var(--orange); text-shadow:0 0 10px rgba(255,69,0,0.55); letter-spacing:1px; }
+.brand-sub  { font-family:var(--rl); font-size:9px; font-weight:400; color:rgba(255,255,255,0.45); letter-spacing:3px; text-transform:uppercase; margin-top:3px; }
+
+/* ── DESKTOP MENU ── */
+.rr-menu { display:flex; align-items:center; list-style:none; gap:2px; flex:1; justify-content:center; }
+.rr-menu > li { position:relative; }
+
+.rr-tab {
+  display:flex; align-items:center; gap:5px;
+  padding:9px 14px;
+  font-family:var(--rl); font-size:13px; font-weight:400;
+  color:rgba(255,255,255,0.8); text-transform:uppercase; letter-spacing:0.8px;
+  cursor:pointer; border:none; background:transparent; border-radius:6px;
+  white-space:nowrap; position:relative;
+  transition:color 0.2s, background 0.2s;
+}
+.rr-tab::after {
+  content:''; position:absolute; bottom:5px; left:50%; right:50%;
+  height:2px; background:var(--orange); border-radius:2px;
+  transition:left 0.25s, right 0.25s;
+}
+.rr-tab:hover { color:var(--orange); background:rgba(255,69,0,0.07); }
+.rr-tab:hover::after { left:14px; right:14px; }
+.rr-tab .arrow { font-size:9px; color:var(--orange); transition:transform 0.25s; }
+.rr-menu > li:hover .arrow { transform:rotate(180deg); }
+
+/* ── DESKTOP DROPDOWNS ── */
+.rr-drop {
+  position:absolute; top:calc(100% + 12px); left:50%;
+  transform:translateX(-50%) translateY(8px);
+  min-width:250px;
+  background:rgba(6,6,6,0.98);
+  border:1px solid rgba(255,69,0,0.22); border-top:2px solid var(--orange);
+  border-radius:0 0 10px 10px; padding:8px 0;
+  opacity:0; pointer-events:none;
+  transition:opacity 0.22s, transform 0.22s;
+  box-shadow:0 24px 55px rgba(0,0,0,0.97);
+  z-index:100;
+}
+.rr-drop::before {
+  content:''; position:absolute; top:-7px; left:50%;
+  transform:translateX(-50%);
+  border:6px solid transparent; border-bottom-color:var(--orange); border-top:none;
+}
+.rr-menu > li:hover .rr-drop { opacity:1; pointer-events:all; transform:translateX(-50%) translateY(0); }
+
+/* BRIDGE CSS removed */
+
+/* Bridge for last-child dropdown too */
+.rr-menu > li:last-child::after { left:auto; right:0; width:100%; }
+.rr-menu > li:last-child .rr-drop { left:auto; right:0; transform:translateX(0) translateY(8px); }
+.rr-menu > li:last-child:hover .rr-drop { transform:translateX(0) translateY(0); }
+.rr-menu > li:last-child .rr-drop::before { left:auto; right:22px; }
+
+.rr-drop a {
+  display:block; padding:9px 20px;
+  font-family:var(--wt); font-size:14px; font-weight:400;
+  color:rgba(255,255,255,0.68); text-decoration:none; letter-spacing:0.3px;
+  border-left:2px solid transparent;
+  transition:color 0.14s, background 0.14s, padding-left 0.18s;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.rr-drop a:hover { color:var(--white); background:rgba(255,69,0,0.1); border-left-color:var(--orange); padding-left:26px; }
+.rr-drop-section {
+  padding:5px 20px 2px; font-family:var(--wt); font-size:10px; font-weight:400;
+  color:var(--orange); text-transform:uppercase; letter-spacing:2.5px; margin-top:6px;
+}
+.rr-drop hr { border:none; border-top:1px solid rgba(255,69,0,0.14); margin:5px 12px; }
+
+/* ══ BUTTONS ══ */
+.rr-btns { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+
+/* ── PHONE ── */
+.btn-phone {
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:13px 24px; font-family:var(--rl); font-size:16px; font-weight:400;
+  color:var(--white); background:var(--orange); border:2px solid var(--orange);
+  border-radius:8px; text-decoration:none; white-space:nowrap; cursor:pointer;
+  letter-spacing:0.8px; min-width:210px;
+  box-shadow:0 4px 18px rgba(255,69,0,0.4);
+}
+.btn-phone.s-normal { background:var(--orange); border-color:var(--orange); color:var(--white); transform:scale(1); box-shadow:0 4px 18px rgba(255,69,0,0.4); transition:all 0.45s ease; }
+.btn-phone.s-grow   { background:var(--orange); border-color:var(--orange); color:var(--white); transform:scale(1.13); box-shadow:0 6px 34px rgba(255,69,0,0.9),0 0 52px rgba(255,80,0,0.38); transition:all 0.28s ease; }
+.btn-phone.s-black  { background:var(--black);  border-color:var(--orange); color:var(--orange); transform:scale(1.07); box-shadow:0 4px 26px rgba(255,69,0,0.6); transition:all 0.2s ease; }
+.btn-phone.s-shrink { background:var(--orange); border-color:var(--orange); color:var(--white); transform:scale(0.92); box-shadow:0 2px 8px rgba(255,69,0,0.22); transition:all 0.28s ease; }
+
+/* ── QUOTE ── */
+.btn-quote {
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:13px 28px; font-family:var(--rl); font-size:16px; font-weight:400;
+  letter-spacing:0.8px; color:var(--white); background:var(--orange);
+  border:2px solid var(--orange); border-radius:8px;
+  text-decoration:none; cursor:pointer; white-space:nowrap;
+  position:relative; overflow:hidden;
+  animation:qpulse 2.6s ease-in-out infinite;
+}
+.btn-quote::before {
+  content:''; position:absolute; top:-60%; left:-80%; width:55%; height:220%;
+  background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,0.4) 50%,transparent 80%);
+  transform:skewX(-18deg); animation:shimmer 2.6s ease-in-out infinite; pointer-events:none;
+}
+.btn-quote::after {
+  content:''; position:absolute; inset:-5px; border-radius:12px;
+  border:2px solid var(--orange); opacity:0;
+  animation:ripple 2.6s ease-in-out infinite; pointer-events:none;
+}
+@keyframes qpulse {
+  0%,100%{background:var(--orange);color:var(--white);box-shadow:0 0 10px rgba(255,69,0,0.45);transform:scale(1);}
+  35%{background:rgba(255,69,0,0.05);color:var(--orange);box-shadow:0 0 30px rgba(255,69,0,1),0 0 62px rgba(255,80,0,0.38);transform:scale(1.06);}
+  65%{background:var(--orange);color:var(--white);box-shadow:0 0 16px rgba(255,69,0,0.55);transform:scale(0.98);}
+}
+@keyframes shimmer { 0%{left:-80%;} 65%{left:130%;} 100%{left:130%;} }
+@keyframes ripple  { 0%,100%{opacity:0;transform:scale(1);} 35%{opacity:0.5;transform:scale(1.1);} 60%{opacity:0;transform:scale(1.18);} }
+
+/* ── HAMBURGER ── */
+.rr-burger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:8px; background:none; border:none; margin-left:auto; }
+.rr-burger span { display:block; width:24px; height:2px; background:var(--orange); border-radius:2px; transition:0.3s; }
+
+#rr-nav.scrolled { background:rgba(0,0,0,0.97); }
+
+/* ── RESPONSIVE ── */
+@media (max-width:1160px) {
+  .rr-tab { font-size:12px; padding:8px 10px; }
+  .btn-quote,.btn-phone { font-size:14px; padding:12px 18px; }
+  .btn-phone { min-width:185px; }
+}
+@media (max-width:920px) {
+  .rr-menu { display:none; }
+  .rr-burger { display:flex; }
+  .rr-btns { display:none; }
+  .btn-phone { min-width:unset; padding:12px 14px; font-size:13px; }
+  .btn-quote { font-size:13px; padding:12px 16px; }
+}
+
+@media (max-width:480px) {
+  .rr-inner { padding: 0 12px; height: 64px; }
+  .rr-logo img { width:44px; height:44px; }
+  .brand-main { font-size:16px; }
+  .brand-sub { display:none; }
+  .rr-burger { padding:6px; }
+  .rr-burger span { width:20px; }
+  #rr-mobile { top:64px; }
+  .mob-tab { padding:10px 12px; font-size:11px; }
+  .mob-panel { max-height:calc(100vh - 110px); }
+}
+
+
+/* ══ MOBILE MENU ══ */
+#rr-mobile {
+  display:none; position:fixed;
+  top:78px; left:0; right:0;
+  background:rgba(0,0,0,0.98);
+  border-bottom:2px solid var(--orange);
+  z-index:9998;
+}
+#rr-mobile.open { display:block; }
+
+.mob-tabs {
+  display:flex; overflow-x:auto; scrollbar-width:none;
+  border-bottom:1px solid rgba(255,69,0,0.2);
+}
+.mob-tabs::-webkit-scrollbar { display:none; }
+.mob-tab {
+  flex-shrink:0; padding:14px 16px;
+  font-family:var(--rl); font-size:12px; font-weight:400;
+  color:rgba(255,255,255,0.7); text-transform:uppercase; letter-spacing:0.8px;
+  cursor:pointer; border:none; background:transparent;
+  border-bottom:2px solid transparent; margin-bottom:-1px;
+  transition:color 0.2s, border-color 0.2s; white-space:nowrap;
+}
+.mob-tab.active { color:var(--orange); border-bottom-color:var(--orange); }
+
+.mob-panel {
+  display:none; padding:10px 0 16px;
+  columns:2; column-gap:0;
+  max-height:calc(100vh - 142px); overflow-y:auto;
+}
+.mob-panel.open { display:block; }
+.mob-panel .mob-head {
+  display:block; break-inside:avoid; padding:8px 20px 2px;
+  font-family:var(--wt); font-size:11px; font-weight:400;
+  color:var(--orange); text-transform:uppercase; letter-spacing:2px;
+}
+.mob-panel a {
+  display:block; break-inside:avoid; padding:8px 20px;
+  font-family:var(--wt); font-size:14px; font-weight:400;
+  color:rgba(255,255,255,0.75); text-decoration:none;
+  border-left:2px solid transparent; transition:0.15s;
+ min-height: 44px; }
+.mob-panel a:hover { color:var(--white); background:rgba(255,69,0,0.1); border-left-color:var(--orange); }
+.mob-panel hr { border:none; border-top:1px solid rgba(255,69,0,0.12); margin:4px 12px; break-inside:avoid; }
+
+</style>
+</head>
+<body class="theme-inverted">
+<div id="mob-menu" role="dialog" aria-label="Mobile navigation" aria-hidden="true">
+  <a href="index.html#services">Services</a>
+  <a href="index.html#protection">Protection</a>
+  <a href="index.html#why-us">Why Us</a>
+  <a href="contact-double-r-roofing.html">Contact</a>
+  <a href="tel:+13047165744">(304) 716-5744</a>
+  <a class="btn-primary" href="schedule-your-roofing-services.html">Free Estimate →</a>
+</div>
+
+
+<nav id="rr-nav">
+  <div class="rr-inner">
+
+    <a href="index.html" class="rr-logo">
+      <img src="images/Double_R_Roofings_3d_Logo-150.webp" alt="Double R Roofing Logo" style="height:60px;width:auto;display:block;">
+      <div class="rr-logo-text">
+        <span class="brand-main">Double R Roofing</span>
+        <span class="brand-sub">Rise Above The Rest</span>
+      </div>
+    </a>
+
+    <ul class="rr-menu">
+
+      <li>
+        <button class="rr-tab">Services <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <a href="https://riseabovethe.rest/24hr-emergency-services.html">24hr Emergency Services</a>
+          <a href="https://riseabovethe.rest/decks-porches-master.html">Decks and Porches</a>
+          <a href="https://riseabovethe.rest/premium-metal-roof.html">Premium Metal Roofing</a>
+          <a href="https://riseabovethe.rest/solar-ready-roofing.html">Solar Ready Roofing</a>
+          <a href="https://riseabovethe.rest/storm-damage-restoration.html">Storm Damage Restoration</a>
+          <a href="https://riseabovethe.rest/emergency-roof-repairs.html">Roof Repairs </a>
+          <a href="https://riseabovethe.rest/metal-roofing-installations.html">Metal Roofing Installations</a>
+          <a href="https://riseabovethe.rest/routine-maintenance-and-inspection.html">Maintenance and Inspections</a>
+          <a href="https://riseabovethe.rest/custom-decks-and-porches.html">Custom Decks &amp; Porches</a>
+          <a href="https://riseabovethe.rest/commercial-roofing-solutions.html">Commercial Roofing Solutions</a>
+          <a href="https://riseabovethe.rest/carpentry-and-additions.html">Carpentry &amp; Additions</a>
+        </div>
+      </li>
+
+      <li>
+        <button class="rr-tab">Our Brands <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <div class="rr-drop-section">Shingles</div>
+          <a href="https://riseabovethe.rest/owens-corning-preferred-contractor.html">Owens Corning Preferred</a>
+          <a href="https://riseabovethe.rest/premium-pink-panther-products.html">Premium Pink Panther</a>
+          <hr/>
+          <div class="rr-drop-section">Flat / Rubber</div>
+          <a href="https://riseabovethe.rest/firestone-roofing-systems.html">Firestone Roofing Systems</a>
+          <a href="https://riseabovethe.rest/firestones-rubber-roofing.html">Firestone Rubber Roofing</a>
+          <a href="https://riseabovethe.rest/industry-leading-roofing-warranty.html">Industry's Leading Warranty</a>
+          <hr/>
+          <div class="rr-drop-section">Metal</div>
+          <a href="https://riseabovethe.rest/premium-metal-roof.html">Premium Metal Roofing</a>
+          <a href="https://riseabovethe.rest/premium-roofing-solutions.html">Premium Roofing Solutions</a>
+        </div>
+      </li>
+
+      <li>
+        <button class="rr-tab">Commercial <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <a href="https://riseabovethe.rest/commercial-roofing-solutions.html">Commercial Roofing Solutions</a>
+          <a href="https://riseabovethe.rest/most-experienced-commercial-roofing.html">Most Experienced Contractor</a>
+          <a href="https://riseabovethe.rest/low-slope-roofing-pro.html">Low Slope Roofing Pro</a>
+          <a href="https://riseabovethe.rest/premium-flat-roofing-solutions.html">Premium Flat Roofing</a>
+          <a href="https://riseabovethe.rest/firestone-roofing-systems.html">Firestone Systems</a>
+          <a href="https://riseabovethe.rest/firestones-rubber-roofing.html">Rubber Membrane Systems</a>
+        </div>
+      </li>
+
+      <li>
+        <button class="rr-tab">Why Us <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <div class="rr-drop-section">Reputation</div>
+          <a href="https://riseabovethe.rest/princeton-most-trusted-roofers.html">Princeton's Most Trusted</a>
+          <a href="https://riseabovethe.rest/maximize-your-home-value.html">Maximize Your Home Value</a>
+          <a href="https://riseabovethe.rest/trustworthy-roofing-services.html">Trustworthy Services</a>
+          <hr/>
+          <div class="rr-drop-section">Benefits</div>
+          <a href="https://riseabovethe.rest/exceptional-quality-assurance.html">Exceptional Quality</a>
+          <a href="https://riseabovethe.rest/professional-roofing-services.html">Professional Services</a>
+          <a href="https://riseabovethe.rest/complete-peace-of-mind.html">Complete Peace of Mind</a>
+          <a href="https://riseabovethe.rest/discover-new-roof-benefits.html">New Roof Benefits</a>
+          <hr/>
+          <div class="rr-drop-section">Warranty</div>
+          <a href="https://riseabovethe.rest/industry-leading-warranty.html">Industry-Leading Warranty</a>
+          <a href="https://riseabovethe.rest/industry-leading-roofing-warranty.html">Industry's Best Warranty</a>
+          <a href="https://riseabovethe.rest/industrys-best-warranty.html">Why Our Warranty Wins</a>
+        </div>
+      </li>
+
+      <li>
+        <button class="rr-tab">Payment Options <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <a href="https://riseabovethe.rest/finance-your-roof.html">Finance Your Roof</a>
+          <a href="https://riseabovethe.rest/know-your-roofing-cost.html">Know Your Cost</a>
+        </div>
+      </li>
+
+      <li>
+        <button class="rr-tab">More <span class="arrow">▾</span></button>
+        <div class="rr-drop">
+          <div class="rr-drop-section">Solar</div>
+          <a href="https://riseabovethe.rest/solar-powered-smart-home.html">Solar Powered Smart Home</a>
+          <a href="https://riseabovethe.rest/solar-ready-roofing.html">Solar Ready Roofing</a>
+          <hr/>
+          <div class="rr-drop-section">Protection</div>
+          <a href="https://riseabovethe.rest/storm-proof-protection.html">Storm Proof Protection</a>
+          <a href="https://riseabovethe.rest/roofing-solutions-in-princeton-wv.html">Princeton WV Solutions</a>
+          <hr/>
+          <div class="rr-drop-section">Company</div>
+          <a href="https://riseabovethe.rest/double-r-roofing.html">About Double R Roofing</a>
+          <a href="https://riseabovethe.rest/contact-double-r-roofing.html">Contact Us</a>
+          <a href="https://riseabovethe.rest/schedule-your-roofing-services.html">Schedule Services</a>
+          <a href="https://riseabovethe.rest/index.html">Home</a>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="rr-btns">
+      <a class="btn-phone s-normal" id="btn-phone" href="tel:+13047165744">(304) 716-5744</a>
+      <a class="btn-quote" href="https://riseabovethe.rest/know-your-roofing-cost.html">Get Instant Quote</a>
+    </div>
+
+    <button class="rr-burger" id="rr-burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</nav>
+
+<div id="rr-mobile">
+  <div class="mob-tabs">
+    <button class="mob-tab active" data-panel="mp-services">Services</button>
+    <button class="mob-tab" data-panel="mp-brands">Our Brands</button>
+    <button class="mob-tab" data-panel="mp-commercial">Commercial</button>
+    <button class="mob-tab" data-panel="mp-whyus">Why Us</button>
+    <button class="mob-tab" data-panel="mp-payment">Payment</button>
+    <button class="mob-tab" data-panel="mp-more">More</button>
+  </div>
+
+  <div class="mob-panel open" id="mp-services">
+          <a href="https://riseabovethe.rest/24hr-emergency-services.html">24hr Emergency Services</a>
+          <a href="https://riseabovethe.rest/decks-porches-master.html">Decks and Porches</a>
+          <a href="https://riseabovethe.rest/premium-metal-roof.html">Premium Metal Roofing</a>
+          <a href="https://riseabovethe.rest/solar-ready-roofing.html">Solar Ready Roofing</a>
+          <a href="https://riseabovethe.rest/storm-damage-restoration.html">Storm Damage Restoration</a>
+          <a href="https://riseabovethe.rest/emergency-roof-repairs.html">Roof Repairs </a>
+          <a href="https://riseabovethe.rest/metal-roofing-installations.html">Metal Roofing Installations</a>
+          <a href="https://riseabovethe.rest/routine-maintenance-and-inspection.html">Maintenance and Inspections</a>
+          <a href="https://riseabovethe.rest/custom-decks-and-porches.html">Custom Decks &amp; Porches</a>
+          <a href="https://riseabovethe.rest/commercial-roofing-solutions.html">Commercial Roofing Solutions</a>
+          <a href="https://riseabovethe.rest/carpentry-and-additions.html">Carpentry &amp; Additions</a>
+        </div>
+ 
+
+  <div class="mob-panel" id="mp-brands">
+    <span class="mob-head">Shingles</span>
+    <a href="https://riseabovethe.rest/owens-corning-preferred-contractor.html">Owens Corning Preferred</a>
+    <a href="https://riseabovethe.rest/premium-pink-panther-products.html">Premium Pink Panther</a>
+    <hr/>
+    <span class="mob-head">Flat / Rubber</span>
+    <a href="https://riseabovethe.rest/firestone-roofing-systems.html">Firestone Roofing Systems</a>
+    <a href="https://riseabovethe.rest/firestones-rubber-roofing.html">Firestone Rubber Roofing</a>
+    <a href="https://riseabovethe.rest/industry-leading-roofing-warranty.html">Industry's Leading Warranty</a>
+    <hr/>
+    <span class="mob-head">Metal</span>
+    <a href="https://riseabovethe.rest/premium-metal-roof.html">Premium Metal Roofing</a>
+    <a href="https://riseabovethe.rest/premium-roofing-solutions.html">Premium Roofing Solutions</a>
+  </div>
+
+  <div class="mob-panel" id="mp-commercial">
+    <a href="https://riseabovethe.rest/commercial-roofing-solutions.html">Commercial Roofing Solutions</a>
+    <a href="https://riseabovethe.rest/most-experienced-commercial-roofing.html">Most Experienced Contractor</a>
+    <a href="https://riseabovethe.rest/low-slope-roofing-pro.html">Low Slope Roofing Pro</a>
+    <a href="https://riseabovethe.rest/premium-flat-roofing-solutions.html">Premium Flat Roofing</a>
+    <a href="https://riseabovethe.rest/firestone-roofing-systems.html">Firestone Systems</a>
+    <a href="https://riseabovethe.rest/firestones-rubber-roofing.html">Rubber Membrane Systems</a>
+  </div>
+
+  <div class="mob-panel" id="mp-whyus">
+    <span class="mob-head">Reputation</span>
+     <a href="https://riseabovethe.rest/princeton-most-trusted-roofers.html">Princeton's Most Trusted</a>
+          <a href="https://riseabovethe.rest/maximize-your-home-value.html">Maximize Your Home Value</a>
+          <a href="https://riseabovethe.rest/trustworthy-roofing-services.html">Trustworthy Services</a>
+    <hr/>
+    <span class="mob-head">Benefits</span>
+          <a href="https://riseabovethe.rest/exceptional-quality-assurance.html">Exceptional Quality</a>
+          <a href="https://riseabovethe.rest/professional-roofing-services.html">Professional Services</a>
+          <a href="https://riseabovethe.rest/complete-peace-of-mind.html">Complete Peace of Mind</a>
+          <a href="https://riseabovethe.rest/discover-new-roof-benefits.html">New Roof Benefits</a>
+    <hr/>
+    <span class="mob-head">Warranty</span>
+       <a href="https://riseabovethe.rest/industry-leading-warranty.html">Industry-Leading Warranty</a>
+       <a href="https://riseabovethe.rest/industry-leading-roofing-warranty.html">Industry's Best Warranty</a>
+       <a href="https://riseabovethe.rest/industrys-best-warranty.html">Why Our Warranty Wins</a>
+  </div>
+
+  <div class="mob-panel" id="mp-payment">
+   <a href="https://riseabovethe.rest/finance-your-roof.html">Finance Your Roof</a>
+   <a href="https://riseabovethe.rest/know-your-roofing-cost.html">Know Your Cost</a>
+  </div>
+
+  <div class="mob-panel" id="mp-more">
+    <span class="mob-head">Solar</span>
+        <a href="https://riseabovethe.rest/solar-powered-smart-home.html">Solar Powered Smart Home</a>
+          <a href="https://riseabovethe.rest/solar-ready-roofing.html">Solar Ready Roofing</a>
+    <hr/>
+    <span class="mob-head">Protection</span>
+    <a href="https://riseabovethe.rest/storm-proof-protection.html">Storm Proof Protection</a>
+    <a href="https://riseabovethe.rest/roofing-solutions-in-princeton-wv.html">Princeton WV Solutions</a>
+    <hr/>
+    <span class="mob-head">Company</span>
+    <a href="https://riseabovethe.rest/double-r-roofing.html">About Double R Roofing</a>
+    <a href="https://riseabovethe.rest/contact-double-r-roofing.html">Contact Us</a>
+    <a href="https://riseabovethe.rest/schedule-your-roofing-services.html">Schedule Services</a>
+    <a href="https://riseabovethe.rest/index.html">Home</a> 
+  </div>
+</div>
+
+<script>
+window.addEventListener('scroll', function() {
+  document.getElementById('rr-nav').classList.toggle('scrolled', window.scrollY > 30);
+});
+
+const burger = document.getElementById('rr-burger');
+const mobMenu = document.getElementById('rr-mobile');
+if (burger && mobMenu) {
+  burger.addEventListener('click', function() {
+    mobMenu.classList.toggle('open');
+    var sp = burger.querySelectorAll('span');
+    var o = mobMenu.classList.contains('open');
+    sp[0].style.transform = o ? 'rotate(45deg) translate(5px,5px)' : '';
+    sp[1].style.opacity = o ? '0' : '1';
+    sp[2].style.transform = o ? 'rotate(-45deg) translate(5px,-5px)' : '';
+  });
+}
+
+document.querySelectorAll('.mob-tab').forEach(function(tab) {
+  tab.addEventListener('click', function() {
+    document.querySelectorAll('.mob-tab').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('.mob-panel').forEach(function(p) { p.classList.remove('open'); });
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.panel).classList.add('open');
+  });
+});
+
+// Close mobile menu when a link is clicked
+document.querySelectorAll('.mob-panel a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    var mobMenu = document.getElementById('rr-mobile');
+    if (mobMenu) {
+      mobMenu.classList.remove('open');
+      var burger = document.getElementById('rr-burger');
+      if (burger) {
+        var sp = burger.querySelectorAll('span');
+        if (sp.length >= 3) {
+          sp[0].style.transform = '';
+          sp[1].style.opacity = '1';
+          sp[2].style.transform = '';
+        }
+      }
+    }
+  });
+});
+
+const phone = document.getElementById('btn-phone');
+if (phone) {
+  var seq = [['s-normal',2400],['s-grow',380],['s-black',480],['s-shrink',340]];
+  var idx = 0;
+  function tick() {
+    var cls = seq[idx][0];
+    var delay = seq[idx][1];
+    phone.classList.remove('s-normal','s-grow','s-black','s-shrink');
+    phone.classList.add(cls);
+    idx = (idx + 1) % seq.length;
+    setTimeout(tick, delay);
+  }
+  setTimeout(tick, 1000);
+}
+</script>
+<div class="bg-animation">
+<div class="rise-peak"></div>
+<div class="rising-element el-1"><div class="arrow-up"></div></div>
+<div class="rising-element el-2"><i class="fas fa-hammer bg-icon"></i></div>
+<div class="rising-element el-3"><i class="fas fa-home bg-icon"></i></div>
+<div class="rising-element el-4 shingle-particle" style="width: 35px; height: 20px; opacity: 0.15;"></div>
+<div class="rising-element el-5"><div class="arrow-up"></div></div>
+<div class="rising-element el-1" style="animation-delay: -12s;"><i class="fas fa-tools bg-icon"></i></div>
+<div class="rising-element el-3" style="animation-delay: -8s;"><i class="fas fa-shield-alt bg-icon"></i></div>
+<div class="grid-overlay"></div>
+</div>
+<!-- Header -->
+
+<!-- Partnership Banner -->
+<div class="partnership-banner">
+<span>🏆 Authorized Firestone Building Products Contractor — Factory-Trained Installation Crews</span>
+</div>
+<!-- Hero Section -->
+<section class="hero">
+<div class="container">
+<div class="hero-content">
+<div class="hero-text">
+<div class="hero-badges">
+<span class="hero-badge">🤝 Official Firestone Partner</span>
+<span class="hero-badge certified">✓ Factory Certified</span>
+</div>
+<h1>Firestone Rubber Roofing Excellence</h1>
+<p>
+                        As an authorized Firestone Building Products contractor, we deliver industry-leading EPDM and TPO roofing systems backed by decades of proven performance and comprehensive manufacturer warranties.
+                    </p>
+<div class="hero-cta">
+<a class="btn-primary" href="#contact">
+                            Get Free Estimate →
+                        </a>
+<a class="btn-secondary" href="#products">
+                            📋 View Products
+                        </a>
+</div>
+</div>
+<div class="hero-visual">
+<div class="firestone-showcase">
+<div class="firestone-logo-container">
+<div class="firestone-logo-text">
+                                FIRESTONE
+                                <span>BUILDING PRODUCTS</span>
+</div>
+</div>
+<div class="authorization-badge">
+                            ✓ Authorized Contractor
+                        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="stats-section">
+<div class="container">
+<div class="stats-grid">
+<div class="stat-item">
+<div class="stat-value">35+</div>
+<div class="stat-label">Years of Partnership</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">500+</div>
+<div class="stat-label">Rubber Roofs Installed</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">30 Yr</div>
+<div class="stat-label">Warranty Available</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">2M+</div>
+<div class="stat-label">Sq Ft Installed</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Products Section -->
+<section class="products-section" id="products">
+<div class="container">
+<div class="section-header">
+<span class="section-label">Firestone Products</span>
+<h2 class="section-title">Premium Rubber Roofing Systems</h2>
+<p class="section-subtitle">
+                    We install the complete line of Firestone commercial roofing products, each engineered for exceptional durability and long-term performance.
+                </p>
+</div>
+<div class="products-grid">
+<div class="product-card featured">
+<div class="product-image">
+<div class="texture"></div>
+<span class="featured-tag">Most Popular</span>
+<span class="icon">🛡️</span>
+</div>
+<div class="product-content">
+<h3 class="product-name">RubberGard™ EPDM</h3>
+<div class="product-type">Ethylene Propylene Diene Monomer</div>
+<p class="product-description">
+                            The world's most trusted single-ply roofing membrane. RubberGard EPDM offers unmatched durability, flexibility, and weather resistance for flat and low-slope roofs.
+                        </p>
+<div class="product-features">
+<div class="product-feature">
+<span class="check">✓</span>
+<span>50+ year proven track record</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Excellent UV &amp; ozone resistance</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Flexible in extreme temperatures</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Low lifecycle cost</span>
+</div>
+</div>
+</div>
+</div>
+<div class="product-card">
+<div class="product-image">
+<div class="texture"></div>
+<span class="icon">☀️</span>
+</div>
+<div class="product-content">
+<h3 class="product-name">UltraPly™ TPO</h3>
+<div class="product-type">Thermoplastic Polyolefin</div>
+<p class="product-description">
+                            Energy-efficient white membrane roofing that reflects solar heat, reducing cooling costs. Ideal for buildings focused on sustainability and energy savings.
+                        </p>
+<div class="product-features">
+<div class="product-feature">
+<span class="check">✓</span>
+<span>ENERGY STAR® rated</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Heat-welded seams</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Cool roof compliant</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Algae &amp; mold resistant</span>
+</div>
+</div>
+</div>
+</div>
+<div class="product-card">
+<div class="product-image">
+<div class="texture"></div>
+<span class="icon">🔧</span>
+</div>
+<div class="product-content">
+<h3 class="product-name">RubberGard™ EcoWhite</h3>
+<div class="product-type">Reflective EPDM</div>
+<p class="product-description">
+                            Combines the legendary durability of EPDM with a factory-applied white coating for enhanced reflectivity. The best of both worlds.
+                        </p>
+<div class="product-features">
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Reflects 80%+ solar energy</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>EPDM durability</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Reduced AC costs</span>
+</div>
+<div class="product-feature">
+<span class="check">✓</span>
+<span>Factory-applied coating</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Firestone Section -->
+<section class="why-firestone" id="why-firestone">
+<div class="container">
+<div class="why-content">
+<div class="why-text">
+<h2>Why Choose <span>Firestone</span>?</h2>
+<p>
+                        Firestone has been the gold standard in commercial roofing for over a century. Their rubber roofing membranes are installed on more square footage worldwide than any other brand.
+                    </p>
+<div class="why-features">
+<div class="why-feature">
+<div class="why-feature-icon">🏭</div>
+<div class="why-feature-text">
+<h4>American Manufacturing</h4>
+<p>Made in the USA with rigorous quality control standards</p>
+</div>
+</div>
+<div class="why-feature">
+<div class="why-feature-icon">🔬</div>
+<div class="why-feature-text">
+<h4>Continuous Innovation</h4>
+<p>Industry-leading R&amp;D for advanced roofing solutions</p>
+</div>
+</div>
+<div class="why-feature">
+<div class="why-feature-icon">📊</div>
+<div class="why-feature-text">
+<h4>Proven Performance</h4>
+<p>50+ years of documented membrane longevity</p>
+</div>
+</div>
+<div class="why-feature">
+<div class="why-feature-icon">🤝</div>
+<div class="why-feature-text">
+<h4>Contractor Network</h4>
+<p>Trained installers ensure proper application</p>
+</div>
+</div>
+</div>
+</div>
+<div class="firestone-facts">
+<h3>📈 Firestone By The Numbers</h3>
+<div class="fact-list">
+<div class="fact-item">
+<div class="fact-icon">🌍</div>
+<div class="fact-text">
+20+ billion sq ft of EPDM installed worldwide since 1980
+                            </div>
+</div>
+<div class="fact-item">
+<div class="fact-icon">🏢</div>
+<div class="fact-text">
+#1 choice for commercial flat roof applications
+                            </div>
+</div>
+<div class="fact-item">
+<div class="fact-icon">⏱️</div>
+<div class="fact-text">
+100+ years of rubber expertise from tire technology
+                            </div>
+</div>
+<div class="fact-item">
+<div class="fact-icon">🔒</div>
+<div class="fact-text">
+Zero maintenance required with proper installation
+                            </div>
+</div>
+<div class="fact-item">
+<div class="fact-icon">♻️</div>
+<div class="fact-text">
+100% recyclable at end of service life
+                            </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Applications Section -->
+<section class="applications">
+<div class="container">
+<div class="section-header">
+<span class="section-label">Applications</span>
+<h2 class="section-title">Ideal For Every Building Type</h2>
+<p class="section-subtitle">
+                    Firestone rubber roofing systems are engineered for diverse commercial and industrial applications.
+                </p>
+</div>
+<div class="applications-grid">
+<div class="application-card">
+<div class="application-icon">🏢</div>
+<h3>Office Buildings</h3>
+<p>Low-maintenance solutions for commercial properties</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏭</div>
+<h3>Industrial Facilities</h3>
+<p>Heavy-duty protection for warehouses and plants</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏬</div>
+<h3>Retail Centers</h3>
+<p>Reliable coverage for shopping centers and strip malls</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏥</div>
+<h3>Healthcare</h3>
+<p>Critical protection for hospitals and clinics</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏫</div>
+<h3>Educational</h3>
+<p>Long-term solutions for schools and universities</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏨</div>
+<h3>Hospitality</h3>
+<p>Quality roofing for hotels and restaurants</p>
+</div>
+<div class="application-card">
+<div class="application-icon">🏠</div>
+<h3>Multi-Family</h3>
+<p>Durable roofs for apartments and condos</p>
+</div>
+<div class="application-card">
+<div class="application-icon">⛪</div>
+<h3>Houses of Worship</h3>
+<p>Trusted protection for religious facilities</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Warranty Section -->
+<section class="warranty-section" id="warranty">
+<div class="container">
+<div class="warranty-content">
+<div class="warranty-info">
+<h2>Industry-Leading <span>Warranty</span> Coverage</h2>
+<p>
+                        As an authorized Firestone contractor, we offer comprehensive manufacturer-backed warranties that protect your investment for decades.
+                    </p>
+<div class="warranty-tiers">
+<div class="warranty-tier">
+<div class="warranty-years">
+<span class="number">10</span>
+<span class="label">Years</span>
+</div>
+<div class="warranty-tier-text">
+<h4>Standard Coverage</h4>
+<p>Full membrane and labor coverage for basic installations</p>
+</div>
+</div>
+<div class="warranty-tier">
+<div class="warranty-years">
+<span class="number">20</span>
+<span class="label">Years</span>
+</div>
+<div class="warranty-tier-text">
+<h4>Extended Protection</h4>
+<p>Comprehensive coverage including system components</p>
+</div>
+</div>
+<div class="warranty-tier">
+<div class="warranty-years">
+<span class="number">30</span>
+<span class="label">Years</span>
+</div>
+<div class="warranty-tier-text">
+<h4>Maximum Security</h4>
+<p>Our longest warranty with full system coverage</p>
+</div>
+</div>
+</div>
+</div>
+<div class="warranty-visual">
+<div class="warranty-badge-large">
+<span class="years">30</span>
+<span class="text">YEAR WARRANTY</span>
+</div>
+<div class="warranty-includes">
+<h4>Warranty Includes:</h4>
+<ul>
+<li>Full membrane replacement</li>
+<li>Labor costs covered</li>
+<li>Consequential damage protection</li>
+<li>Transferable to new owners</li>
+<li>No dollar limit on claims</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="process-section">
+<div class="container">
+<div class="section-header">
+<span class="section-label">Our Process</span>
+<h2 class="section-title">From Inspection to Completion</h2>
+<p class="section-subtitle">
+                    Our factory-trained crews follow Firestone's exacting installation standards for every project.
+                </p>
+</div>
+<div class="process-steps">
+<div class="process-step">
+<div class="step-number">1</div>
+<h3>Free Inspection</h3>
+<p>Comprehensive roof assessment and measurement</p>
+</div>
+<div class="process-step">
+<div class="step-number">2</div>
+<h3>Custom Proposal</h3>
+<p>Detailed scope, product selection, and warranty options</p>
+</div>
+<div class="process-step">
+<div class="step-number">3</div>
+<h3>Preparation</h3>
+<p>Deck repair, insulation, and surface prep</p>
+</div>
+<div class="process-step">
+<div class="step-number">4</div>
+<h3>Installation</h3>
+<p>Factory-certified crews install your system</p>
+</div>
+<div class="process-step">
+<div class="step-number">5</div>
+<h3>Final Walkthrough</h3>
+<p>Quality inspection and warranty registration</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="cta-section" id="contact">
+<div class="container">
+<div class="cta-content">
+<h2>Ready for a Firestone Roof?</h2>
+<p>
+                    Get a free, no-obligation estimate for your commercial rubber roofing project. Our factory-certified team is ready to protect your building.
+                </p>
+<div class="cta-buttons">
+<a class="btn-primary" href="tel:+15551234567">
+                        ☎️ Call (555) 123-4567
+                    </a>
+<a class="btn-secondary" href="schedule-your-roofing-services.html">
+                        📅 Schedule Inspection
+                    </a>
+</div>
+<div class="cta-trust">
+<div class="trust-badge">🏆 Authorized Firestone Contractor</div>
+<div class="trust-badge">✓ Factory-Trained Crews</div>
+<div class="trust-badge">📋 Full Warranty Support</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+
+
+
+
+<!-- ===== DOUBLE R ROOFING GLOBAL FOOTER ===== -->
+<style>
+@keyframes kenBurnsRise {
+  0%,100% { transform:scale(1.05) rotate(0deg); }
+  50%      { transform:scale(1.2) rotate(0.8deg); }
+}
+@keyframes bgDrift {
+  0%   { background-position:50% 0%; }
+  25%  { background-position:30% 25%; }
+  50%  { background-position:50% 50%; }
+  75%  { background-position:70% 75%; }
+  100% { background-position:50% 0%; }
+}
+@keyframes letterLaunch {
+  0%   { transform:translateY(0px) scale(1); opacity:1; filter:blur(0px); }
+  12%  { transform:translateY(-10px) scale(1.07); opacity:1; filter:blur(0px); }
+  34%  { transform:translateY(-100px) scale(0.8); opacity:0.1; filter:blur(8px); }
+  35%  { transform:translateY(80px) scale(0.6); opacity:0; filter:blur(14px); }
+  55%  { transform:translateY(6px) scale(1.1); opacity:0.9; filter:blur(2px); }
+  64%  { transform:translateY(-5px) scale(1.02); opacity:1; filter:blur(0px); }
+  72%  { transform:translateY(0px) scale(1); opacity:1; filter:blur(0px); }
+  100% { transform:translateY(0px) scale(1); opacity:1; filter:blur(0px); }
+}
+@keyframes wordAscend {
+  0%   { transform:translateY(14px); opacity:0.3; }
+  55%  { transform:translateY(-9px); opacity:1; }
+  75%  { transform:translateY(-11px); opacity:1; }
+  100% { transform:translateY(14px); opacity:0.3; }
+}
+@keyframes rocketRise {
+  0%   { transform:translateY(12px); opacity:0.4; }
+  8%   { transform:translateY(12px); opacity:0.5; }
+  50%  { transform:translateY(-16px); opacity:1; }
+  68%  { transform:translateY(-19px); opacity:1; }
+  82%  { transform:translateY(-16px); opacity:0.8; }
+  100% { transform:translateY(12px); opacity:0.4; }
+}
+@keyframes exhaustTrail {
+  0%   { height:0px; opacity:0; }
+  8%   { height:5px; opacity:0.7; }
+  22%  { height:40px; opacity:1; }
+  65%  { height:32px; opacity:0.85; }
+  85%  { height:10px; opacity:0.4; }
+  100% { height:0px; opacity:0; }
+}
+@keyframes brandPulse {
+  0%,100% { text-shadow:0 0 18px rgba(255,69,0,.55),0 0 60px rgba(255,69,0,.08),0 3px 10px rgba(0,0,0,.8); }
+  50%      { text-shadow:0 0 38px rgba(255,69,0,.95),0 0 90px rgba(255,69,0,.28),0 3px 10px rgba(0,0,0,.8); }
+}
+@keyframes dividerEnergy {
+  0%,100% { opacity:0.45; transform:scaleX(0.55); }
+  50%      { opacity:1; transform:scaleX(1); }
+}
+@keyframes emberFloat {
+  0%   { transform:translateY(0) translateX(0); opacity:0; }
+  6%   { opacity:0.9; }
+  65%  { transform:translateY(-280px) translateX(var(--ex,0px)); opacity:0.6; }
+  100% { transform:translateY(-440px) translateX(calc(var(--ex)*1.4)); opacity:0; }
+}
+@keyframes scanLine {
+  0%   { transform:translateY(200%); opacity:0; }
+  6%   { opacity:0.85; }
+  94%  { opacity:0.5; }
+  100% { transform:translateY(-200%); opacity:0; }
+}
+
+#brand-footer {
+  position:relative; min-height:auto; overflow:hidden;
+  padding:3rem 2rem 2.5rem; font-family:'Rubik Lines',sans-serif;
+}
+#brand-footer::before {
+  content:''; position:absolute; inset:0;
+  background:url('images/Double_R_Roofing_footer_background_image.jpeg') center/cover no-repeat; z-index:0;
+}
+.ft-bg {
+  position:absolute; inset:-8%;
+  background:url('images/Double_R_Roofing_footer_background_image.jpeg') center/125% no-repeat;
+  animation:kenBurnsRise 42s ease-in-out infinite,bgDrift 58s linear infinite;
+  will-change:transform; z-index:1;
+}
+.ft-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to top,rgba(6,2,0,0.93) 0%,rgba(10,5,0,0.78) 38%,rgba(4,4,16,0.42) 100%);
+  z-index:2;
+}
+.ft-embers { position:absolute; inset:0; z-index:3; pointer-events:none; overflow:hidden; }
+.ember {
+  position:absolute; bottom:0; border-radius:50%;
+  background:radial-gradient(circle,#ffb040 0%,#ff4500 55%,transparent 100%);
+  filter:blur(0.5px); animation:emberFloat linear infinite;
+}
+.ft-inner { position:relative; z-index:4; max-width:1100px; margin:0 auto; text-align:center; color:#fff; }
+.ft-brand {
+  font-family:'Rubik Lines',sans-serif; font-size:clamp(3rem,8.25vw,6rem);
+  color:#ffffff; letter-spacing:0.08em; line-height:1; margin-bottom:0.3rem;
+}
+.ft-divider {
+  height:1px;
+  background:linear-gradient(90deg,transparent 0%,#ff4500 25%,#ff9900 50%,#ff4500 75%,transparent 100%);
+  max-width:460px; margin:0.4rem auto 1rem;
+  animation:dividerEnergy 3.8s ease-in-out infinite; transform-origin:center;
+}
+.rise-hero { display:flex; gap:0.02em; justify-content:center; align-items:baseline; margin-bottom:0.2rem; overflow:visible; }
+.rl {
+  font-family:'Rubik Lines',sans-serif; font-size:clamp(4rem,12vw,8rem);
+  display:inline-block; line-height:0.95;
+  animation:letterLaunch 5.6s ease-in-out infinite; will-change:transform,opacity,filter;
+}
+.rl:nth-child(1) { color:#ff3300; animation-delay:0s;   filter:drop-shadow(0 0 14px rgba(255,51,0,.8)); }
+.rl:nth-child(2) { color:#ff4d00; animation-delay:0.8s; filter:drop-shadow(0 0 14px rgba(255,77,0,.7)); }
+.rl:nth-child(3) { color:#ff6600; animation-delay:1.6s; filter:drop-shadow(0 0 14px rgba(255,102,0,.7)); }
+.rl:nth-child(4) { color:#ff8000; animation-delay:2.4s; filter:drop-shadow(0 0 14px rgba(255,128,0,.6)); }
+
+.above-rest {
+  position:relative; overflow:hidden; display:flex; gap:0.75em;
+  justify-content:center; align-items:baseline; padding:0.6rem 1.5rem; margin-bottom:1.5rem;
+}
+.above-rest::before {
+  content:''; position:absolute; left:-5%; right:-5%; height:2px;
+  background:linear-gradient(90deg,transparent,#ff8c00,#ffd700,#ff8c00,transparent);
+  animation:scanLine 7s ease-in-out infinite; animation-delay:2.5s;
+}
+.rise-word {
+  font-family:'Walter Turncoat',cursive; font-size:clamp(1.2rem,3.4vw,2.1rem);
+  color:#ffffff; letter-spacing:0.14em; text-transform:uppercase; display:inline-block;
+  animation:wordAscend 3.6s ease-in-out infinite; filter:drop-shadow(0 0 7px rgba(255,69,0,.55));
+}
+.rise-word:nth-child(1) { animation-delay:0s; }
+.rise-word:nth-child(2) { animation-delay:0.5s; }
+.rise-word:nth-child(3) { animation-delay:1.0s; }
+
+.ft-socials { display:flex; gap:2.2rem; justify-content:center; align-items:flex-end; margin-bottom:3rem; }
+.social-link {
+  text-decoration:none; display:flex; flex-direction:column; align-items:center; gap:0.55rem;
+  --rise-delay:0s; transition:transform 0.35s cubic-bezier(0.34,1.56,0.64,1),filter 0.35s ease;
+}
+.social-link:hover { transform:scale(1.32) translateY(-10px); filter:drop-shadow(0 12px 22px rgba(0,0,0,0.55)); }
+.social-link:hover .icon-inner svg { filter:drop-shadow(0 0 24px #ff4500) drop-shadow(0 0 44px rgba(255,69,0,.5)); }
+.social-link:hover .social-label { opacity:1; transform:translateY(0); }
+.icon-inner {
+  position:relative; display:block; width:54px; height:54px;
+  animation:rocketRise 3s cubic-bezier(0.4,0,0.3,1) infinite; animation-delay:var(--rise-delay);
+}
+.icon-inner svg { width:54px; height:54px; filter:drop-shadow(0 0 8px rgba(255,69,0,0.6)); transition:filter 0.3s ease; position:relative; z-index:1; }
+.icon-inner::after {
+  content:''; position:absolute; bottom:-2px; left:50%; transform:translateX(-50%); width:12px;
+  background:linear-gradient(to bottom,rgba(255,160,40,.98),rgba(255,69,0,.80),rgba(255,30,0,.40),transparent);
+  border-radius:0 0 50% 50%; filter:blur(3.5px);
+  animation:exhaustTrail 3s cubic-bezier(0.4,0,0.3,1) infinite; animation-delay:var(--rise-delay); z-index:0;
+}
+.social-link:nth-child(1) { --rise-delay:0s; }
+.social-link:nth-child(2) { --rise-delay:0.55s; }
+.social-link:nth-child(3) { --rise-delay:1.1s; }
+.social-link:nth-child(4) { --rise-delay:1.65s; }
+.social-link:nth-child(5) { --rise-delay:2.2s; }
+.social-label {
+  font-family:'Walter Turncoat',cursive; font-size:0.66rem; color:#ff6020; letter-spacing:0.13em;
+  text-transform:uppercase; opacity:0; transform:translateY(7px); transition:opacity 0.3s ease,transform 0.3s ease; white-space:nowrap;
+}
+.ft-bottom {
+  font-family:'Walter Turncoat',cursive; font-size:0.79rem; color:rgba(255,255,255,0.35); letter-spacing:0.07em;
+  padding-top:1.5rem; border-top:1px solid rgba(255,69,0,0.14);
+  display:flex; flex-wrap:wrap; justify-content:center; gap:0.3rem 1.4rem;
+}
+.ft-bottom .ft-hi     { color:rgba(255,255,255,0.65); }
+.ft-bottom .ft-accent { color:#ff4500; }
+</style>
+
+<footer id="brand-footer">
+  <div class="ft-bg"></div>
+  <div class="ft-overlay"></div>
+  <div class="ft-embers" id="ftEmbers"></div>
+  <div class="ft-inner">
+    <div class="ft-brand"><span class="ft-letter" style="animation-delay:0.0s">D</span><span class="ft-letter" style="animation-delay:0.22s">o</span><span class="ft-letter" style="animation-delay:0.44s">u</span><span class="ft-letter" style="animation-delay:0.66s">b</span><span class="ft-letter" style="animation-delay:0.88s">l</span><span class="ft-letter" style="animation-delay:1.1s">e</span><span style="display:inline-block;width:0.35em">&nbsp;</span><span class="ft-letter" style="animation-delay:1.32s">R</span><span style="display:inline-block;width:0.35em">&nbsp;</span><span class="ft-letter" style="animation-delay:1.54s">R</span><span class="ft-letter" style="animation-delay:1.76s">o</span><span class="ft-letter" style="animation-delay:1.98s">o</span><span class="ft-letter" style="animation-delay:2.2s">f</span><span class="ft-letter" style="animation-delay:2.42s">i</span><span class="ft-letter" style="animation-delay:2.64s">n</span><span class="ft-letter" style="animation-delay:2.86s">g</span></div>
+    <div class="ft-divider"></div>
+    <div class="rise-hero">
+      <span class="rl" style="animation-delay:0s">R</span>
+      <span class="rl" style="animation-delay:0.8s">I</span>
+      <span class="rl" style="animation-delay:1.6s">S</span>
+      <span class="rl" style="animation-delay:2.4s">E</span>
+    </div>
+    <div class="above-rest">
+      <span class="rise-word">Above</span>
+      <span class="rise-word">The</span>
+      <span class="rise-word">Rest</span>
+    </div>
+    <div class="ft-socials">
+      <a href="https://instagram.com/Double_R_Roofing" target="_blank" rel="noopener" class="social-link" title="Instagram">
+        <span class="icon-inner">
+          <svg viewBox="0 0 24 24" fill="#ff4500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.793-4-4 0-2.209 1.793-4 4-4s4 1.793 4 4c0 2.209-1.793 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441c0-.796-.645-1.441-1.441-1.441z"/>
+          </svg>
+        </span>
+        <span class="social-label">Instagram</span>
+      </a>
+      <a href="https://youtube.com/double-r-roofing" target="_blank" rel="noopener" class="social-link" title="YouTube">
+        <span class="icon-inner">
+          <svg viewBox="0 0 24 24" fill="#ff4500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </span>
+        <span class="social-label">YouTube</span>
+      </a>
+      <a href="https://www.facebook.com/people/Double-R-Roofing/61560587609585/" target="_blank" rel="noopener" class="social-link" title="Facebook">
+        <span class="icon-inner">
+          <svg viewBox="0 0 24 24" fill="#ff4500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </span>
+        <span class="social-label">Facebook</span>
+      </a>
+      <a href="https://www.x.com/double_r_roofin" target="_blank" rel="noopener" class="social-link" title="X">
+        <span class="icon-inner">
+          <svg viewBox="0 0 24 24" fill="#ff4500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </span>
+        <span class="social-label">X</span>
+      </a>
+      <a href="https://tiktok.com/aboveallriseabovetherest" target="_blank" rel="noopener" class="social-link" title="TikTok">
+        <span class="icon-inner">
+          <svg viewBox="0 0 24 24" fill="#ff4500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.02a8.16 8.16 0 0 0 4.77 1.52V7.1a4.85 4.85 0 0 1-1-.41z"/>
+          </svg>
+        </span>
+        <span class="social-label">TikTok</span>
+      </a>
+    </div>
+    <div class="ft-bottom">
+      <span class="ft-hi">Double R Roofing</span>
+      <span>Princeton, WV</span>
+      <span class="ft-accent">Rise Above The Rest</span>
+    </div>
+  </div>
+</footer>
+<!-- ===== END DOUBLE R ROOFING GLOBAL FOOTER ===== -->
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const nav = document.querySelector('.nav');
+    if (mobileMenuBtn && nav) {
+        mobileMenuBtn.addEventListener('click', function() {
+            nav.classList.toggle('active');
+        });
+    }
+    
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        const link = item.querySelector('.nav-link');
+        if (link && item.querySelector('.dropdown-menu')) {
+            link.addEventListener('click', function(e) {
+                if (window.innerWidth <= 1024) {
+                    e.preventDefault();
+                    item.classList.toggle('active');
+                }
+            });
+        }
+    });
+});
+
+
+// DROPDOWN FIX - Keep dropdowns open briefly after mouse leaves
+(function() {
+  const menuItems = document.querySelectorAll('.rr-menu > li');
+  let activeDropdown = null;
+  let timeoutId = null;
+  
+  menuItems.forEach(item => {
+    const dropdown = item.querySelector('.rr-drop');
+    if (!dropdown) return;
+    
+    item.addEventListener('mouseenter', () => {
+      clearTimeout(timeoutId);
+      if (activeDropdown && activeDropdown !== dropdown) {
+        activeDropdown.style.opacity = '0';
+        activeDropdown.style.pointerEvents = 'none';
+      }
+      dropdown.style.opacity = '1';
+      dropdown.style.pointerEvents = 'all';
+      dropdown.style.transform = 'translateX(-50%) translateY(0)';
+      activeDropdown = dropdown;
+    });
+    
+    item.addEventListener('mouseleave', (e) => {
+      timeoutId = setTimeout(() => {
+        dropdown.style.opacity = '0';
+        dropdown.style.pointerEvents = 'none';
+        dropdown.style.transform = 'translateX(-50%) translateY(8px)';
+      }, 150);
+    });
+    
+    dropdown.addEventListener('mouseenter', () => {
+      clearTimeout(timeoutId);
+    });
+    
+    dropdown.addEventListener('mouseleave', () => {
+      timeoutId = setTimeout(() => {
+        dropdown.style.opacity = '0';
+        dropdown.style.pointerEvents = 'none';
+        dropdown.style.transform = 'translateX(-50%) translateY(8px)';
+      }, 100);
+    });
+  });
+})();</script>
+<footer id="site-footer" role="contentinfo">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="ft-brand">Double R Roofing</div>
+      <div class="ft-tagline">Rise Above The Rest</div>
+    </div>
+    <address class="ft-nap" style="font-style:normal">
+      <div><a href="tel:+13047165744">(304) 716-5744</a></div>
+      <div>Princeton, WV &amp; Mercer County</div>
+      <div>24/7 Emergency Service Available</div>
+      <div><a href="contact-double-r-roofing.html">Contact Us</a></div>
+    </address>
+  </div>
+  <div class="wrap ft-bottom">
+    <span>© 2025 Double R Roofing · Princeton, WV · Rise Above The Rest</span>
+  </div>
+</footer>
+
+<script>
+// Mobile Menu Functionality
+(function() {
+  const burger = document.getElementById('nav-burger');
+  const mob = document.getElementById('mob-menu');
+  if (!burger || !mob) return;
+
+  burger.addEventListener('click', function() {
+    const isOpen = mob.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen);
+    mob.setAttribute('aria-hidden', !isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+
+    const spans = burger.querySelectorAll('span');
+    if (isOpen) {
+      spans[0].style.transform = 'rotate(45deg) translate(5px,5px)';
+      spans[1].style.opacity = '0';
+      spans[2].style.transform = 'rotate(-45deg) translate(5px,-5px)';
+    } else {
+      spans[0].style.transform = '';
+      spans[1].style.opacity = '1';
+      spans[2].style.transform = '';
+    }
+  });
+
+  // Close menu when clicking links
+  mob.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mob.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      mob.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    });
+  });
+})();
+
+// Scroll effects
+window.addEventListener('scroll', function() {
+  const nav = document.getElementById('nav');
+  if (nav) nav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// Reveal animations
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach(el => {
+  if (!el.classList.contains('in')) obs.observe(el);
+});
+</script>
+
+</body>

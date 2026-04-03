@@ -1,0 +1,29 @@
+/* fonts.css */
+@font-face {
+  font-family: 'Rubik Lines';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/rubik-lines-v1-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Walter Turncoat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/walter-turncoat-v24-latin-regular.woff2') format('woff2');
+}
+
+/* Force Rubik Lines to never be bold */
+h1, h2, h3, h4, h5, h6,
+.hero-title, .section-title, .pc-title, .prot-title, .brand-main, .ft-brand {
+  font-family: var(--rl) !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+/* Ensure all elements using --rl are not bold */
+[class*="hero-"], [class*="section-"], [class*="ft-"] {
+  font-weight: 400;
+}
