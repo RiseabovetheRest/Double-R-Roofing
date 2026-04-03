@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+myenv/
+*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+html_extracted/
+html.zip
