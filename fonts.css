@@ -1,0 +1,16 @@
+/* Font-display: swap prevents blocking render */
+@font-face {
+  font-family: "Rubik Lines";
+  src: url("https://riseabovethe.rest/fonts/rubik-lines-v1-latin-regular.woff2") format("woff2");
+  font-display: swap; /* Show system font FIRST, swap when loaded */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Walter Turncoat";
+  src: url("https://riseabovethe.rest/fonts/walter-turncoat-v24-latin-regular.woff2") format("woff2");
+  font-display: swap; /* Show system font FIRST, swap when loaded */
+  font-weight: 400;
+  font-style: normal;
+}
